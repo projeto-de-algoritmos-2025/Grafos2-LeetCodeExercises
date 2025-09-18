@@ -26,7 +26,7 @@ Eu selecionei e implementei a solução para três problemas, sendo os três de 
 Abaixo estão detalhados os problemas abordados, com uma breve explicação da estratégia utilizada e o comprovante de submissão.
 
 ---
-### 1. [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/) - (Difícil)
+### 1. [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/) - (Difícil - Dijkstra)
 ![](assets/1293Dijkstra-Problem.png)
 
 
