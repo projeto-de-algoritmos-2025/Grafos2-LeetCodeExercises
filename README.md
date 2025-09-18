@@ -1,4 +1,4 @@
-# Trabalho 1: Soluções de Desafios de Grafos (LeetCode)
+# Trabalho 2: Soluções de Desafios de Dijkstra, PRIM e Kruskal (LeetCode)
 
 **Disciplina**: Projeto de Algoritmos (FGA0124) 
 
