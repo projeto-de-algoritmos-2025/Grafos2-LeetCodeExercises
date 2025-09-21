@@ -8,7 +8,7 @@
 
 Este repositório contém as soluções desenvolvidas para o **Trabalho 2** da disciplina de Projeto de Algoritmos. O objetivo principal foi aplicar e demonstrar o conhecimento teórico adquirido em aula através da resolução de desafios práticos da plataforma LeetCode.
 
-Nos selecionamos e implementamos a solução para três problemas, sendo os três de nível **Difícil** , focando em diferentes algoritmos e estruturas de dados relacionadas a grafos.
+Nós selecionamos e implementamos a solução para três problemas, sendo os três de nível **Difícil** , focando em diferentes algoritmos e estruturas de dados relacionadas a grafos.
 
 ## 👥 Equipe
 
@@ -32,7 +32,7 @@ Abaixo estão detalhados os problemas abordados, com uma breve explicação da e
 
 
 #### **Estratégia:** 
-A estratégia que eu utilizei foi uma variação do algoritmo de Dijkstra para encontrar o caminho mais curto. O principal ponto foi perceber que a localização (linha, coluna) não era suficiente para definir um estado, pois era crucial também saber quantos obstáculos já haviam sido eliminados.
+A estratégia que utilizada foi uma variação do algoritmo de Dijkstra para encontrar o caminho mais curto. O principal ponto foi perceber que a localização (linha, coluna) não era suficiente para definir um estado, pois era crucial também saber quantos obstáculos já haviam sido eliminados.
 
 Portanto, a solução define um "estado" mais complexo, representado por uma tupla:
 
