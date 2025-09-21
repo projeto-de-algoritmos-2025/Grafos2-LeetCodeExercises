@@ -50,6 +50,51 @@ Em resumo, a estratégia transforma o problema de um simples labirinto 2D em um 
 
 ![](assets/1293Dijkstra-Submit.png)
 
+
+### 2. [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/description/) - (Difícil - PRIM)
+![](assets/1489.png)
+
+
+#### **Estratégia:** 
+A estratégia da solução é a seguinte:
+
+- **1. Calcular um Padrão:** Primeiro, calcula-se o peso de uma Árvore Geradora Mínima (MST) normal para o grafo. Esse valor servirá como referência.
+
+- **2. Testar Cada Aresta:** Em seguida, o código passa por cada aresta uma por uma para classificá-la.
+
+    - **Para Arestas Críticas:** A aresta é temporariamente removida do grafo. Se o peso da nova MST aumentar (ou se o grafo se desconectar), significa que a aresta era essencial. Logo, é crítica.
+
+    - **Para Arestas Pseudo-Críticas:** Se a aresta não for crítica, o código a força para dentro da MST. Se o peso final continuar igual ao original, significa que a aresta é uma opção válida, mas não a única. Logo, é **pseudo-crítica**.
+
+Em resumo, o algoritmo testa o impacto de remover (para achar as críticas) e de forçar (para achar as pseudo-críticas) cada uma das arestas no grafo.
+
+**Submissão:**
+[Submissão LeetCode 1489](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/submissions/1778389286)
+
+![](assets/1489Submit.png)
+
+
+### 3. [3600. Maximize Spanning Tree Stability with Upgrades](https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/description/) - (Difícil - Kruskal)
+![](assets/3600.png)
+
+
+#### **Estratégia:** 
+A estratégia combina Busca Binária na Resposta com uma variação do algoritmo de Kruskal.
+
+- **1. Busca Binária:** É usada para adivinhar eficientemente a resposta S (a estabilidade máxima). Se um S funciona, tentamos um maior; se não, um menor, até encontrar o valor ótimo.
+
+- **2. Verificação com Kruskal Modificado:** Para cada S adivinhado, uma função check determina se é possível construir a árvore. Ela implementa uma versão do Kruskal, mas em vez de ordenar por peso, a prioridade é:
+
+    - **1.** Arestas obrigatórias.
+    - **2.** Arestas "grátis" (que já têm força >= S).
+    - **3.** Arestas que precisam de upgrade para atingir S.
+
+A estrutura DSU é usada, como no Kruskal clássico, para evitar a formação de ciclos.
+
+**Submissão:**
+[Submissão LeetCode 3600](https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/submissions/1778392259)
+
+![](assets/3600Submit.png)
 ---
 
 ## 🎬 Vídeo de Apresentação
