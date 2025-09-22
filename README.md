@@ -105,7 +105,7 @@ A explicação detalhada do raciocínio por trás de cada solução pode ser enc
 
 [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://youtu.be/3u3pKxJo49k)
 
-[3600. Maximize Spanning Tree Stability with Upgrades]()
+[3600. Maximize Spanning Tree Stability with Upgrades](https://youtu.be/vIfQNEGlvYE)
 
 
 
