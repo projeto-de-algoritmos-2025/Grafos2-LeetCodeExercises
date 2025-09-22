@@ -103,7 +103,7 @@ A explicação detalhada do raciocínio por trás de cada solução pode ser enc
 
 [1293. Shortest Path in a Grid with Obstacles Elimination](https://youtu.be/XrDoGHLv1BM)
 
-[1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree]()
+[1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://youtu.be/3u3pKxJo49k)
 
 [3600. Maximize Spanning Tree Stability with Upgrades]()
 
