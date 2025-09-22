@@ -101,5 +101,11 @@ A estrutura DSU é usada, como no Kruskal clássico, para evitar a formação de
 
 A explicação detalhada do raciocínio por trás de cada solução pode ser encontrada nos vídeos abaixo:
 
+[1293. Shortest Path in a Grid with Obstacles Elimination]()
+
+[1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree]()
+
+[3600. Maximize Spanning Tree Stability with Upgrades]()
+
 
 
